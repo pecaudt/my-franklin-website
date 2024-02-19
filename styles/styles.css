@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --link-color: #035fe6;
+  --link-color: #44cb54;
   --link-hover-color: #136ff6;
   --background-color: white;
   --light-color: #eee;
@@ -58,6 +58,8 @@
     --heading-font-size-xs: 22px;
   }
 }
+
+html, body { scroll-behavior: smooth; }
 
 body {
   font-size: var(--body-font-size-m);
