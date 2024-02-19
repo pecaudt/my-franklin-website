@@ -132,4 +132,12 @@ async function loadPage() {
   loadDelayed();
 }
 
+function setEvents() {
+  document.querySelector('.button-container .button').addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo(0, 0);
+  })
+}
+
 loadPage();
+setEvents();
